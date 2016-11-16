@@ -1,0 +1,56 @@
+body {
+    background-color:#8EE7FF;
+    margin: 0;
+    padding: 0;
+    overflow: auto;   
+}
+
+.clear {
+	clear: both;
+}
+/* header */
+header {
+    height: 89px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.title h1 {
+    height: 89px;
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 20px;
+    font: normal 120% serif;  
+}
+
+/* content */
+.content {
+    height: 490px;
+    width: 100%;
+    border: 1px solid #000000;
+}
+#block {
+    height: 100%; 
+    overflow: hidden;
+      
+}
+/*footer*/
+.footer {
+    width: 100%;
+    border: 1px solid #000000;   
+}
+.bottom_footer {
+    border: 2px solid #000000;
+    height: 35px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+

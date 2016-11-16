@@ -1,0 +1,50 @@
+body {
+    background-image: url(../images/fon.jpg) ;
+	background-repeat: repeat-x repeat-y;
+    margin: 0;
+    padding: 0;
+    overflow: auto;   
+}
+.clear {
+	clear: both;
+}
+/* header */
+header {
+    height: 89px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.title h1 {
+    height: 89px;
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 20px;
+    font: normal 120% serif;  
+}
+
+/* content */
+.content {
+    height: 490px;
+    width: 100%;
+    border: 1px solid #000000;
+}
+#right_block {
+	background-color:red;
+    margin: auto;
+    height: 400px; 
+	width:800px;      
+}
+/*footer*/
+.footer {
+    width: 100%;
+    border: 1px solid #000000;   
+}
+
+
+
+
+
+
+

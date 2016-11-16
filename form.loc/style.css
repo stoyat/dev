@@ -1,0 +1,92 @@
+html, body, h1, h2, h3, h4, h5, h6, p, span, ul, li, div, form, input, select, textarea, button {margin:0; padding:0;}
+ul {list-style:none;}
+
+body {
+    font:12px/16px Verdana, Arial, sans-serif;
+}
+
+#container {
+    font-size: 12px;
+    width:400px;
+    margin:10px auto;
+    padding:10px;
+    overflow:hidden;
+    border:1px solid #000;
+    border-radius:10px;
+    background:#EDEDED;
+}
+
+#container h1 {
+    margin:20px;
+    font-size:30px;
+    font-weight:bold;
+}
+
+
+div.message {
+    margin-bottom:10px;
+    padding:5px;
+}
+div.success {
+    color:#4F8A10;
+    border:1px solid #4F8A10;
+    background:#DFF2BF;
+}
+div.error {
+    color:#D8000C;
+    border:1px solid #D8000C;
+    background:#FFBABA;
+}
+span.error {
+    display:block;
+    text-align:right;
+    color:#C00;
+}
+label {
+    display:block;
+    margin-bottom:3px;
+    cursor:pointer;
+}
+.input, textarea, select, button, #phone {
+    display:block;
+    width:390px;
+    margin-bottom:10px;
+    padding:3px;
+    border:1px solid #CCC;
+    border-top-width:2px;
+}
+#form textarea.input {
+    font-size:16px;
+    line-height:16px;
+}
+select {
+    width:396px;
+}
+input.error, textarea.error {
+    border:1px solid #C00;
+    border-top-width:2px;
+}
+button {
+    float:right;
+    width:auto;
+    margin-bottom:0;
+    padding:3px 30px;
+    cursor:pointer;
+    font-size:16px;
+    border:1px solid #999;
+    border-bottom-width:2px;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    background:#EEE;
+}
+button:active {
+    border-bottom-width:1px;
+    padding:4px 30px 3px;
+    background:#E9E9E9;
+}
+
+
+
+
+
